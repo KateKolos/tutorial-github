@@ -3,8 +3,21 @@ background-color: teal;
 color: #2a2a2a;
 }
 
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+table caption {
+    text-align: left;
+  }
+  
 table {
-outline: auto;
-grid-row: auto;
-table-layout: auto;
-}
+    border-collapse: collapse;
+  }
+  
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+  }
